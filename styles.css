@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Viga', sans-serif;
+}
+
+body {
+    background: whitesmoke;
+    height: 100vh; /* Ubah ke 100vh untuk mengisi seluruh tinggi viewport */
+    margin: 0; /* Hilangkan margin pada body */
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto; /* Ganti ke auto untuk menyesuaikan kontennya */
+    background: rgba(0, 0, 0, 0.4);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Ubah box shadow agar efeknya lebih halus */
+}
+
+.main h2 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(119, 5, 5, 0.2);
+    border: none;
+    background-color: rgb(54, 50, 45);
+    color: rgb(255, 243, 243);
+    border-radius: 25px;
+}
+
+
+.btn-green {
+    background: rgb(190, 53, 11);
+    color: #07131a;
+}
+
+.button1 {
+    background-color: rgb(190, 53, 11);
+    width: 50px;
+    margin: 2px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    font-size: 20px;
+    padding: 14px;
+    border: none; /* Hapus border untuk konsistensi */
+    color: #012a38;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.textarea {
+	width: 204px;
+	margin: 4px;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	color: #000000;
+	border-radius: 25px;
+	text-align: right;
+}
